@@ -309,7 +309,7 @@
 
 /** Daniel Greene's workspace **/ 
 body{
-    background-color: navy;
+    background-color: tomato;
     width: 100%;
     height: 100%;
     font-family: 'Playfair Display', serif;
@@ -329,12 +329,29 @@ h1 {
 }
 
 .profilePhoto {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
+section {
+    background-color: darkgoldenrod;
+    float: left;
+    display: inline-block;
+    width: 48%;
+    border: 2px solid darkred;
+    padding: 0;
+}
 
+section img {
+    border-radius: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+section p {
+    margin: auto;
+}
 
 
 
@@ -410,7 +427,6 @@ h1 {
 
 /**Setting up Nav Bar **/
 .navigation{
-    border: 3px solid olive;
     background-color: olive;
     color: maroon;
     float: left;
