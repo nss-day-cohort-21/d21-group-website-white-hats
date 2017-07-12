@@ -1,6 +1,6 @@
 
-h1 {
-  color: blue;
+.shadow-h1 {
+  color: #cc0000;
   font-size: 50px;
   text-align: center;
   text-shadow: 0 1px 0 #ccc,
@@ -17,9 +17,9 @@ h1 {
                0 20px 20px rgba(0,0,0,.15);
 }
 
-h2 {
+.shadow-h2 {
   margin-left: 10px;
-  color: darkblue;
+  color: #cc0000;
   font-size: 25px;
   text-align: left;
   text-shadow: 0 1px 0 #ccc,
@@ -34,23 +34,6 @@ h2 {
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
-}
-
-ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-li {
-  padding-left: 1em;
-  text-indent: -1em;
-  list-style-image: inherit;
-}
-
-li:before {
-  content: "+";
-  padding-right: 5px;
 }
 
 /******************************
@@ -71,11 +54,9 @@ Images
     min-width: 200px;
     max-width: 200px;
     border-radius: 25px;
-    border: 2px solid darkblue;
-    box-shadow: 5px 10px 8px darkgrey;
+    border: 2px solid #cc0000;
+    box-shadow: 5px 10px 8px #000;
     /*box-shadow: inset 5px 5px 5px #000;*/
-
-
 
   }
 
@@ -86,7 +67,13 @@ Images
     color: #3333ff;
   }
 
-
+  .social-media-links {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+  }
 
 /******************************
 FOOTER
