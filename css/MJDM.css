@@ -1,3 +1,8 @@
+.avalible-jobs {
+  background-color: olive;
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -306,10 +311,9 @@
 
 
 
-
-/** Daniel Greene's workspace **/ 
+/** Daniel Greene's workspace **/
 body{
-    background-color: tomato;
+    background-color:burlywood;
     width: 100%;
     height: 100%;
     font-family: 'Playfair Display', serif;
@@ -322,10 +326,14 @@ body{
     background-color: white;
     width: 80%;
     margin: 0 auto;
+    box-shadow: 0px 25px 55px gold;
 }
 
 h1 {
     font-family: 'Raleway', sans-serif;
+}
+h2 {
+    margin: 0;
 }
 
 .profilePhoto {
@@ -340,6 +348,9 @@ section {
     width: 48%;
     border: 2px solid darkred;
     padding: 0;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
 }
 
 section img {
@@ -427,7 +438,7 @@ section p {
 
 /**Setting up Nav Bar **/
 .navigation{
-    background-color: olive;
+    background-color: rgb(13, 114, 142);
     color: maroon;
     float: left;
     display: inline-block;
