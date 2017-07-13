@@ -1,12 +1,17 @@
 .avalible-jobs {
   background-color: olive;
-  width: 50%;
+  width: 90%;
   height: 100%;
+    margin-left: 5%;
+    text-align: left;
 
 
 }
 #job-list-container {
   background-color: maroon;
+  width: 100%;
+    display:inline-block;
+    
 }
 
 
@@ -490,6 +495,7 @@ h3 {
     margin: 0 ;
     padding: 0;
     top: 0;
+    border-radius: 25px;
 
 }
 .navigation li {
