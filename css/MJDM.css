@@ -395,11 +395,14 @@ h3 {
 }
 .cultureSec {
     color: rgb(91, 15, 26);
+    width: auto;
+    
+    
 }
 
 .cultureImg {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 
