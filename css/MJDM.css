@@ -393,8 +393,14 @@ section p {
 h3 {
     font-family: 'Raleway', sans-serif;
 }
+.cultureSec {
+    color: rgb(91, 15, 26);
+}
 
-
+.cultureImg {
+    width: 400px;
+    height: 400px;
+}
 
 
 
