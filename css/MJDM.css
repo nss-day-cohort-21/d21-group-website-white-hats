@@ -2,7 +2,7 @@
   background-color: olive;
   width: 50%;
   height: 100%;
-  
+
 
 }
 #job-list-container {
@@ -205,6 +205,17 @@
 
 
 
+/** .:. Jasmine's CSS .:. **/
+
+.printing {
+  border-radius: 15px 50px;
+  margin: 20px 0 75px 0;
+  width: 35%;
+}
+
+.wearable {
+  margin: 20px 0 75px 0;
+}
 
 
 
@@ -452,7 +463,7 @@ h3 {
 
 
 
-/**Setting up Nav Bar **/
+/**Setting up Nav Bar *
 .navigation{
     background-color: rgb(13, 114, 142);
     color: maroon;
