@@ -329,7 +329,6 @@ body{
     padding: 0;
     color: maroon;
 }
-
 .wrapper {
     background-color: background-color: cadetblue;
     width: 80%;
@@ -345,12 +344,10 @@ h2 {
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
-
 .profilePhoto {
     width: 200px;
     height: 200px;
 }
-
 section {
     background-color: darkgoldenrod;
     float: left;
@@ -362,33 +359,26 @@ section {
     border-radius: 5%;
     text-align: center;
 }
-
 section img {
     border-radius: 80%;
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
-
 section p {
     margin: auto;
 }
-
 .sections {
     margin: auto;
     text-align: center;
 }
-
 h3 {
     font-family: 'Raleway', sans-serif;
 }
 .cultureSec {
     color: rgb(91, 15, 26);
-    width: auto;
-    
-    
+    width: auto;   
 }
-
 .cultureImg {
     width: 300px;
     height: 300px;
